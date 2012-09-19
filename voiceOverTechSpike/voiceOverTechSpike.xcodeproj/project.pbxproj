@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14B0EDA0160A2F2F00AA9A85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B0ED9F160A2F2F00AA9A85 /* UIKit.framework */; };
+		14B0EDA2160A2F2F00AA9A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B0EDA1160A2F2F00AA9A85 /* Foundation.framework */; };
+		14B0EDA4160A2F2F00AA9A85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B0EDA3160A2F2F00AA9A85 /* CoreGraphics.framework */; };
+		14B0EDAA160A2F2F00AA9A85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14B0EDA8160A2F2F00AA9A85 /* InfoPlist.strings */; };
+		14B0EDAC160A2F2F00AA9A85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B0EDAB160A2F2F00AA9A85 /* main.m */; };
+		14B0EDB0160A2F2F00AA9A85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B0EDAF160A2F2F00AA9A85 /* AppDelegate.m */; };
+		14B0EDB3160A2F2F00AA9A85 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B0EDB1160A2F2F00AA9A85 /* MainStoryboard.storyboard */; };
+		14B0EDB6160A2F3000AA9A85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B0EDB5160A2F3000AA9A85 /* ViewController.m */; };
+		14B0EDBE160A2F3000AA9A85 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B0EDBD160A2F3000AA9A85 /* SenTestingKit.framework */; };
+		14B0EDBF160A2F3000AA9A85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B0ED9F160A2F2F00AA9A85 /* UIKit.framework */; };
+		14B0EDC0160A2F3000AA9A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B0EDA1160A2F2F00AA9A85 /* Foundation.framework */; };
+		14B0EDC8160A2F3000AA9A85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14B0EDC6160A2F3000AA9A85 /* InfoPlist.strings */; };
+		14B0EDCB160A2F3000AA9A85 /* voiceOverTechSpikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B0EDCA160A2F3000AA9A85 /* voiceOverTechSpikeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14B0EDC1160A2F3000AA9A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14B0ED92160A2F2F00AA9A85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B0ED9A160A2F2F00AA9A85;
+			remoteInfo = voiceOverTechSpike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14B0ED9B160A2F2F00AA9A85 /* voiceOverTechSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voiceOverTechSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B0ED9F160A2F2F00AA9A85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14B0EDA1160A2F2F00AA9A85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14B0EDA3160A2F2F00AA9A85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14B0EDA7160A2F2F00AA9A85 /* voiceOverTechSpike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "voiceOverTechSpike-Info.plist"; sourceTree = "<group>"; };
+		14B0EDA9160A2F2F00AA9A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14B0EDAB160A2F2F00AA9A85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14B0EDAD160A2F2F00AA9A85 /* voiceOverTechSpike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "voiceOverTechSpike-Prefix.pch"; sourceTree = "<group>"; };
+		14B0EDAE160A2F2F00AA9A85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14B0EDAF160A2F2F00AA9A85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14B0EDB2160A2F2F00AA9A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		14B0EDB4160A2F3000AA9A85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14B0EDB5160A2F3000AA9A85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14B0EDBC160A2F3000AA9A85 /* voiceOverTechSpikeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voiceOverTechSpikeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B0EDBD160A2F3000AA9A85 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		14B0EDC5160A2F3000AA9A85 /* voiceOverTechSpikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "voiceOverTechSpikeTests-Info.plist"; sourceTree = "<group>"; };
+		14B0EDC7160A2F3000AA9A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14B0EDC9160A2F3000AA9A85 /* voiceOverTechSpikeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = voiceOverTechSpikeTests.h; sourceTree = "<group>"; };
+		14B0EDCA160A2F3000AA9A85 /* voiceOverTechSpikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = voiceOverTechSpikeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B0ED98160A2F2F00AA9A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B0EDA0160A2F2F00AA9A85 /* UIKit.framework in Frameworks */,
+				14B0EDA2160A2F2F00AA9A85 /* Foundation.framework in Frameworks */,
+				14B0EDA4160A2F2F00AA9A85 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B0EDB8160A2F3000AA9A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B0EDBE160A2F3000AA9A85 /* SenTestingKit.framework in Frameworks */,
+				14B0EDBF160A2F3000AA9A85 /* UIKit.framework in Frameworks */,
+				14B0EDC0160A2F3000AA9A85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B0ED90160A2F2F00AA9A85 = {
+			isa = PBXGroup;
+			children = (
+				14B0EDA5160A2F2F00AA9A85 /* voiceOverTechSpike */,
+				14B0EDC3160A2F3000AA9A85 /* voiceOverTechSpikeTests */,
+				14B0ED9E160A2F2F00AA9A85 /* Frameworks */,
+				14B0ED9C160A2F2F00AA9A85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14B0ED9C160A2F2F00AA9A85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14B0ED9B160A2F2F00AA9A85 /* voiceOverTechSpike.app */,
+				14B0EDBC160A2F3000AA9A85 /* voiceOverTechSpikeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B0ED9E160A2F2F00AA9A85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14B0ED9F160A2F2F00AA9A85 /* UIKit.framework */,
+				14B0EDA1160A2F2F00AA9A85 /* Foundation.framework */,
+				14B0EDA3160A2F2F00AA9A85 /* CoreGraphics.framework */,
+				14B0EDBD160A2F3000AA9A85 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14B0EDA5160A2F2F00AA9A85 /* voiceOverTechSpike */ = {
+			isa = PBXGroup;
+			children = (
+				14B0EDAE160A2F2F00AA9A85 /* AppDelegate.h */,
+				14B0EDAF160A2F2F00AA9A85 /* AppDelegate.m */,
+				14B0EDB1160A2F2F00AA9A85 /* MainStoryboard.storyboard */,
+				14B0EDB4160A2F3000AA9A85 /* ViewController.h */,
+				14B0EDB5160A2F3000AA9A85 /* ViewController.m */,
+				14B0EDA6160A2F2F00AA9A85 /* Supporting Files */,
+			);
+			path = voiceOverTechSpike;
+			sourceTree = "<group>";
+		};
+		14B0EDA6160A2F2F00AA9A85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14B0EDA7160A2F2F00AA9A85 /* voiceOverTechSpike-Info.plist */,
+				14B0EDA8160A2F2F00AA9A85 /* InfoPlist.strings */,
+				14B0EDAB160A2F2F00AA9A85 /* main.m */,
+				14B0EDAD160A2F2F00AA9A85 /* voiceOverTechSpike-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14B0EDC3160A2F3000AA9A85 /* voiceOverTechSpikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				14B0EDC9160A2F3000AA9A85 /* voiceOverTechSpikeTests.h */,
+				14B0EDCA160A2F3000AA9A85 /* voiceOverTechSpikeTests.m */,
+				14B0EDC4160A2F3000AA9A85 /* Supporting Files */,
+			);
+			path = voiceOverTechSpikeTests;
+			sourceTree = "<group>";
+		};
+		14B0EDC4160A2F3000AA9A85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14B0EDC5160A2F3000AA9A85 /* voiceOverTechSpikeTests-Info.plist */,
+				14B0EDC6160A2F3000AA9A85 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14B0ED9A160A2F2F00AA9A85 /* voiceOverTechSpike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B0EDCE160A2F3000AA9A85 /* Build configuration list for PBXNativeTarget "voiceOverTechSpike" */;
+			buildPhases = (
+				14B0ED97160A2F2F00AA9A85 /* Sources */,
+				14B0ED98160A2F2F00AA9A85 /* Frameworks */,
+				14B0ED99160A2F2F00AA9A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voiceOverTechSpike;
+			productName = voiceOverTechSpike;
+			productReference = 14B0ED9B160A2F2F00AA9A85 /* voiceOverTechSpike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14B0EDBB160A2F3000AA9A85 /* voiceOverTechSpikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B0EDD1160A2F3000AA9A85 /* Build configuration list for PBXNativeTarget "voiceOverTechSpikeTests" */;
+			buildPhases = (
+				14B0EDB7160A2F3000AA9A85 /* Sources */,
+				14B0EDB8160A2F3000AA9A85 /* Frameworks */,
+				14B0EDB9160A2F3000AA9A85 /* Resources */,
+				14B0EDBA160A2F3000AA9A85 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14B0EDC2160A2F3000AA9A85 /* PBXTargetDependency */,
+			);
+			name = voiceOverTechSpikeTests;
+			productName = voiceOverTechSpikeTests;
+			productReference = 14B0EDBC160A2F3000AA9A85 /* voiceOverTechSpikeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14B0ED92160A2F2F00AA9A85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ashley Soucar";
+			};
+			buildConfigurationList = 14B0ED95160A2F2F00AA9A85 /* Build configuration list for PBXProject "voiceOverTechSpike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14B0ED90160A2F2F00AA9A85;
+			productRefGroup = 14B0ED9C160A2F2F00AA9A85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14B0ED9A160A2F2F00AA9A85 /* voiceOverTechSpike */,
+				14B0EDBB160A2F3000AA9A85 /* voiceOverTechSpikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14B0ED99160A2F2F00AA9A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B0EDAA160A2F2F00AA9A85 /* InfoPlist.strings in Resources */,
+				14B0EDB3160A2F2F00AA9A85 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B0EDB9160A2F3000AA9A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B0EDC8160A2F3000AA9A85 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14B0EDBA160A2F3000AA9A85 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B0ED97160A2F2F00AA9A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B0EDAC160A2F2F00AA9A85 /* main.m in Sources */,
+				14B0EDB0160A2F2F00AA9A85 /* AppDelegate.m in Sources */,
+				14B0EDB6160A2F3000AA9A85 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B0EDB7160A2F3000AA9A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B0EDCB160A2F3000AA9A85 /* voiceOverTechSpikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14B0EDC2160A2F3000AA9A85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14B0ED9A160A2F2F00AA9A85 /* voiceOverTechSpike */;
+			targetProxy = 14B0EDC1160A2F3000AA9A85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14B0EDA8160A2F2F00AA9A85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B0EDA9160A2F2F00AA9A85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14B0EDB1160A2F2F00AA9A85 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B0EDB2160A2F2F00AA9A85 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		14B0EDC6160A2F3000AA9A85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B0EDC7160A2F3000AA9A85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14B0EDCC160A2F3000AA9A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		14B0EDCD160A2F3000AA9A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14B0EDCF160A2F3000AA9A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "voiceOverTechSpike/voiceOverTechSpike-Prefix.pch";
+				INFOPLIST_FILE = "voiceOverTechSpike/voiceOverTechSpike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14B0EDD0160A2F3000AA9A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "voiceOverTechSpike/voiceOverTechSpike-Prefix.pch";
+				INFOPLIST_FILE = "voiceOverTechSpike/voiceOverTechSpike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		14B0EDD2160A2F3000AA9A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/voiceOverTechSpike.app/voiceOverTechSpike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "voiceOverTechSpike/voiceOverTechSpike-Prefix.pch";
+				INFOPLIST_FILE = "voiceOverTechSpikeTests/voiceOverTechSpikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		14B0EDD3160A2F3000AA9A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/voiceOverTechSpike.app/voiceOverTechSpike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "voiceOverTechSpike/voiceOverTechSpike-Prefix.pch";
+				INFOPLIST_FILE = "voiceOverTechSpikeTests/voiceOverTechSpikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B0ED95160A2F2F00AA9A85 /* Build configuration list for PBXProject "voiceOverTechSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B0EDCC160A2F3000AA9A85 /* Debug */,
+				14B0EDCD160A2F3000AA9A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B0EDCE160A2F3000AA9A85 /* Build configuration list for PBXNativeTarget "voiceOverTechSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B0EDCF160A2F3000AA9A85 /* Debug */,
+				14B0EDD0160A2F3000AA9A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14B0EDD1160A2F3000AA9A85 /* Build configuration list for PBXNativeTarget "voiceOverTechSpikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B0EDD2160A2F3000AA9A85 /* Debug */,
+				14B0EDD3160A2F3000AA9A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14B0ED92160A2F2F00AA9A85 /* Project object */;
+}
