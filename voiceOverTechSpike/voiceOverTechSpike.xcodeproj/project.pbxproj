@@ -20,6 +20,7 @@
 		14B0EDC0160A2F3000AA9A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B0EDA1160A2F2F00AA9A85 /* Foundation.framework */; };
 		14B0EDC8160A2F3000AA9A85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14B0EDC6160A2F3000AA9A85 /* InfoPlist.strings */; };
 		14B0EDCB160A2F3000AA9A85 /* voiceOverTechSpikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B0EDCA160A2F3000AA9A85 /* voiceOverTechSpikeTests.m */; };
+		14B0EDD5160A316C00AA9A85 /* box_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 14B0EDD4160A316C00AA9A85 /* box_blue.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		14B0EDC7160A2F3000AA9A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14B0EDC9160A2F3000AA9A85 /* voiceOverTechSpikeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = voiceOverTechSpikeTests.h; sourceTree = "<group>"; };
 		14B0EDCA160A2F3000AA9A85 /* voiceOverTechSpikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = voiceOverTechSpikeTests.m; sourceTree = "<group>"; };
+		14B0EDD4160A316C00AA9A85 /* box_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_blue.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		14B0EDA5160A2F2F00AA9A85 /* voiceOverTechSpike */ = {
 			isa = PBXGroup;
 			children = (
+				14B0EDD4160A316C00AA9A85 /* box_blue.png */,
 				14B0EDAE160A2F2F00AA9A85 /* AppDelegate.h */,
 				14B0EDAF160A2F2F00AA9A85 /* AppDelegate.m */,
 				14B0EDB1160A2F2F00AA9A85 /* MainStoryboard.storyboard */,
@@ -224,6 +227,7 @@
 			files = (
 				14B0EDAA160A2F2F00AA9A85 /* InfoPlist.strings in Resources */,
 				14B0EDB3160A2F2F00AA9A85 /* MainStoryboard.storyboard in Resources */,
+				14B0EDD5160A316C00AA9A85 /* box_blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
