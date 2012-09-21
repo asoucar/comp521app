@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Liz's Test.xcscheme</key>
+		<key>TechSpike.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3921352E1603BAD80012683E</key>
+		<key>397A54C5160C117F0015DA7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>392135491603BAD80012683E</key>
+		<key>397A54E6160C117F0015DA7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,14 +1,14 @@
 //
-//  Liz_s_TestTests.m
-//  Liz's TestTests
+//  TechSpikeTests.m
+//  TechSpikeTests
 //
-//  Created by ResNET on 9/14/12.
+//  Created by ResNET on 9/20/12.
 //  Copyright (c) 2012 ResNET. All rights reserved.
 //
 
-#import "Liz_s_TestTests.h"
+#import "TechSpikeTests.h"
 
-@implementation Liz_s_TestTests
+@implementation TechSpikeTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in Liz's TestTests");
+    STFail(@"Unit tests are not implemented yet in TechSpikeTests");
 }
 
 @end

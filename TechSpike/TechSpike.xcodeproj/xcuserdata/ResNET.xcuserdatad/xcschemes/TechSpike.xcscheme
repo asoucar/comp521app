@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3921352E1603BAD80012683E"
-               BuildableName = "Liz&apos;s Test.app"
-               BlueprintName = "Liz&apos;s Test"
-               ReferencedContainer = "container:Liz&apos;s Test.xcodeproj">
+               BlueprintIdentifier = "397A54C5160C117F0015DA7F"
+               BuildableName = "TechSpike.app"
+               BlueprintName = "TechSpike"
+               ReferencedContainer = "container:TechSpike.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "392135491603BAD80012683E"
-               BuildableName = "Liz&apos;s TestTests.octest"
-               BlueprintName = "Liz&apos;s TestTests"
-               ReferencedContainer = "container:Liz&apos;s Test.xcodeproj">
+               BlueprintIdentifier = "397A54E6160C117F0015DA7F"
+               BuildableName = "TechSpikeTests.octest"
+               BlueprintName = "TechSpikeTests"
+               ReferencedContainer = "container:TechSpike.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3921352E1603BAD80012683E"
-            BuildableName = "Liz&apos;s Test.app"
-            BlueprintName = "Liz&apos;s Test"
-            ReferencedContainer = "container:Liz&apos;s Test.xcodeproj">
+            BlueprintIdentifier = "397A54C5160C117F0015DA7F"
+            BuildableName = "TechSpike.app"
+            BlueprintName = "TechSpike"
+            ReferencedContainer = "container:TechSpike.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3921352E1603BAD80012683E"
-            BuildableName = "Liz&apos;s Test.app"
-            BlueprintName = "Liz&apos;s Test"
-            ReferencedContainer = "container:Liz&apos;s Test.xcodeproj">
+            BlueprintIdentifier = "397A54C5160C117F0015DA7F"
+            BuildableName = "TechSpike.app"
+            BlueprintName = "TechSpike"
+            ReferencedContainer = "container:TechSpike.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3921352E1603BAD80012683E"
-            BuildableName = "Liz&apos;s Test.app"
-            BlueprintName = "Liz&apos;s Test"
-            ReferencedContainer = "container:Liz&apos;s Test.xcodeproj">
+            BlueprintIdentifier = "397A54C5160C117F0015DA7F"
+            BuildableName = "TechSpike.app"
+            BlueprintName = "TechSpike"
+            ReferencedContainer = "container:TechSpike.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
