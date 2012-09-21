@@ -478,6 +478,7 @@
 				14A3BCFA160CD8D400103CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14A3BCFB160CD8D400103CF4 /* Build configuration list for PBXNativeTarget "AudiOWordsTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +487,7 @@
 				14A3BCFD160CD8D400103CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
