@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14A3BCCA160CD8D400103CF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3BCC9160CD8D400103CF4 /* UIKit.framework */; };
+		14A3BCCC160CD8D400103CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3BCCB160CD8D400103CF4 /* Foundation.framework */; };
+		14A3BCCE160CD8D400103CF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3BCCD160CD8D400103CF4 /* CoreGraphics.framework */; };
+		14A3BCD4160CD8D400103CF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14A3BCD2160CD8D400103CF4 /* InfoPlist.strings */; };
+		14A3BCD6160CD8D400103CF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3BCD5160CD8D400103CF4 /* main.m */; };
+		14A3BCDA160CD8D400103CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3BCD9160CD8D400103CF4 /* AppDelegate.m */; };
+		14A3BCE8160CD8D400103CF4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3BCE7160CD8D400103CF4 /* SenTestingKit.framework */; };
+		14A3BCE9160CD8D400103CF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3BCC9160CD8D400103CF4 /* UIKit.framework */; };
+		14A3BCEA160CD8D400103CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3BCCB160CD8D400103CF4 /* Foundation.framework */; };
+		14A3BCF2160CD8D400103CF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14A3BCF0160CD8D400103CF4 /* InfoPlist.strings */; };
+		14A3BCF5160CD8D400103CF4 /* AudiOWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3BCF4160CD8D400103CF4 /* AudiOWordsTests.m */; };
+		14A3BD03160CD93F00103CF4 /* MainMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3BD01160CD93F00103CF4 /* MainMenuVC.m */; };
+		14A3BD04160CD93F00103CF4 /* MainMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A3BD02160CD93F00103CF4 /* MainMenuVC.xib */; };
+		14A3BD08160CD98D00103CF4 /* MainGameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3BD06160CD98D00103CF4 /* MainGameVC.m */; };
+		14A3BD09160CD98D00103CF4 /* MainGameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A3BD07160CD98D00103CF4 /* MainGameVC.xib */; };
+		14A3BD0D160CD9BC00103CF4 /* LevelsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3BD0B160CD9BC00103CF4 /* LevelsVC.m */; };
+		14A3BD0E160CD9BC00103CF4 /* LevelsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A3BD0C160CD9BC00103CF4 /* LevelsVC.xib */; };
+		14A3BD12160CDA3C00103CF4 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3BD10160CDA3C00103CF4 /* SettingsVC.m */; };
+		14A3BD13160CDA3C00103CF4 /* SettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A3BD11160CDA3C00103CF4 /* SettingsVC.xib */; };
+		14A3BD17160CDB8800103CF4 /* TutorialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3BD15160CDB8800103CF4 /* TutorialVC.m */; };
+		14A3BD18160CDB8800103CF4 /* TutorialVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A3BD16160CDB8800103CF4 /* TutorialVC.xib */; };
+		14A3BD1C160CDCDB00103CF4 /* AboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3BD1A160CDCDB00103CF4 /* AboutVC.m */; };
+		14A3BD1D160CDCDB00103CF4 /* AboutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A3BD1B160CDCDB00103CF4 /* AboutVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14A3BCEB160CD8D400103CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14A3BCBC160CD8D400103CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14A3BCC4160CD8D400103CF4;
+			remoteInfo = AudiOWords;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14A3BCC5160CD8D400103CF4 /* AudiOWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiOWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A3BCC9160CD8D400103CF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14A3BCCB160CD8D400103CF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14A3BCCD160CD8D400103CF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14A3BCD1160CD8D400103CF4 /* AudiOWords-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudiOWords-Info.plist"; sourceTree = "<group>"; };
+		14A3BCD3160CD8D400103CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14A3BCD5160CD8D400103CF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14A3BCD7160CD8D400103CF4 /* AudiOWords-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudiOWords-Prefix.pch"; sourceTree = "<group>"; };
+		14A3BCD8160CD8D400103CF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14A3BCD9160CD8D400103CF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14A3BCE6160CD8D400103CF4 /* AudiOWordsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiOWordsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A3BCE7160CD8D400103CF4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		14A3BCEF160CD8D400103CF4 /* AudiOWordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudiOWordsTests-Info.plist"; sourceTree = "<group>"; };
+		14A3BCF1160CD8D400103CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14A3BCF3160CD8D400103CF4 /* AudiOWordsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudiOWordsTests.h; sourceTree = "<group>"; };
+		14A3BCF4160CD8D400103CF4 /* AudiOWordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudiOWordsTests.m; sourceTree = "<group>"; };
+		14A3BD00160CD93F00103CF4 /* MainMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuVC.h; sourceTree = "<group>"; };
+		14A3BD01160CD93F00103CF4 /* MainMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuVC.m; sourceTree = "<group>"; };
+		14A3BD02160CD93F00103CF4 /* MainMenuVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuVC.xib; sourceTree = "<group>"; };
+		14A3BD05160CD98D00103CF4 /* MainGameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainGameVC.h; sourceTree = "<group>"; };
+		14A3BD06160CD98D00103CF4 /* MainGameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainGameVC.m; sourceTree = "<group>"; };
+		14A3BD07160CD98D00103CF4 /* MainGameVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainGameVC.xib; sourceTree = "<group>"; };
+		14A3BD0A160CD9BC00103CF4 /* LevelsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelsVC.h; sourceTree = "<group>"; };
+		14A3BD0B160CD9BC00103CF4 /* LevelsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelsVC.m; sourceTree = "<group>"; };
+		14A3BD0C160CD9BC00103CF4 /* LevelsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelsVC.xib; sourceTree = "<group>"; };
+		14A3BD0F160CDA3C00103CF4 /* SettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		14A3BD10160CDA3C00103CF4 /* SettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		14A3BD11160CDA3C00103CF4 /* SettingsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsVC.xib; sourceTree = "<group>"; };
+		14A3BD14160CDB8800103CF4 /* TutorialVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TutorialVC.h; path = ../TutorialVC.h; sourceTree = "<group>"; };
+		14A3BD15160CDB8800103CF4 /* TutorialVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorialVC.m; path = ../TutorialVC.m; sourceTree = "<group>"; };
+		14A3BD16160CDB8800103CF4 /* TutorialVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TutorialVC.xib; path = ../TutorialVC.xib; sourceTree = "<group>"; };
+		14A3BD19160CDCDB00103CF4 /* AboutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutVC.h; sourceTree = "<group>"; };
+		14A3BD1A160CDCDB00103CF4 /* AboutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutVC.m; sourceTree = "<group>"; };
+		14A3BD1B160CDCDB00103CF4 /* AboutVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14A3BCC2160CD8D400103CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A3BCCA160CD8D400103CF4 /* UIKit.framework in Frameworks */,
+				14A3BCCC160CD8D400103CF4 /* Foundation.framework in Frameworks */,
+				14A3BCCE160CD8D400103CF4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A3BCE2160CD8D400103CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A3BCE8160CD8D400103CF4 /* SenTestingKit.framework in Frameworks */,
+				14A3BCE9160CD8D400103CF4 /* UIKit.framework in Frameworks */,
+				14A3BCEA160CD8D400103CF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A3BCBA160CD8D400103CF4 = {
+			isa = PBXGroup;
+			children = (
+				14A3BCCF160CD8D400103CF4 /* AudiOWords */,
+				14A3BCED160CD8D400103CF4 /* AudiOWordsTests */,
+				14A3BCC8160CD8D400103CF4 /* Frameworks */,
+				14A3BCC6160CD8D400103CF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14A3BCC6160CD8D400103CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14A3BCC5160CD8D400103CF4 /* AudiOWords.app */,
+				14A3BCE6160CD8D400103CF4 /* AudiOWordsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14A3BCC8160CD8D400103CF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14A3BCC9160CD8D400103CF4 /* UIKit.framework */,
+				14A3BCCB160CD8D400103CF4 /* Foundation.framework */,
+				14A3BCCD160CD8D400103CF4 /* CoreGraphics.framework */,
+				14A3BCE7160CD8D400103CF4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14A3BCCF160CD8D400103CF4 /* AudiOWords */ = {
+			isa = PBXGroup;
+			children = (
+				14A3BCD8160CD8D400103CF4 /* AppDelegate.h */,
+				14A3BCD9160CD8D400103CF4 /* AppDelegate.m */,
+				14A3BCD0160CD8D400103CF4 /* Supporting Files */,
+				14A3BD00160CD93F00103CF4 /* MainMenuVC.h */,
+				14A3BD01160CD93F00103CF4 /* MainMenuVC.m */,
+				14A3BD02160CD93F00103CF4 /* MainMenuVC.xib */,
+				14A3BD05160CD98D00103CF4 /* MainGameVC.h */,
+				14A3BD06160CD98D00103CF4 /* MainGameVC.m */,
+				14A3BD07160CD98D00103CF4 /* MainGameVC.xib */,
+				14A3BD19160CDCDB00103CF4 /* AboutVC.h */,
+				14A3BD1A160CDCDB00103CF4 /* AboutVC.m */,
+				14A3BD1B160CDCDB00103CF4 /* AboutVC.xib */,
+				14A3BD0A160CD9BC00103CF4 /* LevelsVC.h */,
+				14A3BD0B160CD9BC00103CF4 /* LevelsVC.m */,
+				14A3BD0C160CD9BC00103CF4 /* LevelsVC.xib */,
+				14A3BD0F160CDA3C00103CF4 /* SettingsVC.h */,
+				14A3BD10160CDA3C00103CF4 /* SettingsVC.m */,
+				14A3BD11160CDA3C00103CF4 /* SettingsVC.xib */,
+				14A3BD14160CDB8800103CF4 /* TutorialVC.h */,
+				14A3BD15160CDB8800103CF4 /* TutorialVC.m */,
+				14A3BD16160CDB8800103CF4 /* TutorialVC.xib */,
+			);
+			path = AudiOWords;
+			sourceTree = "<group>";
+		};
+		14A3BCD0160CD8D400103CF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14A3BCD1160CD8D400103CF4 /* AudiOWords-Info.plist */,
+				14A3BCD2160CD8D400103CF4 /* InfoPlist.strings */,
+				14A3BCD5160CD8D400103CF4 /* main.m */,
+				14A3BCD7160CD8D400103CF4 /* AudiOWords-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14A3BCED160CD8D400103CF4 /* AudiOWordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				14A3BCF3160CD8D400103CF4 /* AudiOWordsTests.h */,
+				14A3BCF4160CD8D400103CF4 /* AudiOWordsTests.m */,
+				14A3BCEE160CD8D400103CF4 /* Supporting Files */,
+			);
+			path = AudiOWordsTests;
+			sourceTree = "<group>";
+		};
+		14A3BCEE160CD8D400103CF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14A3BCEF160CD8D400103CF4 /* AudiOWordsTests-Info.plist */,
+				14A3BCF0160CD8D400103CF4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14A3BCC4160CD8D400103CF4 /* AudiOWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A3BCF8160CD8D400103CF4 /* Build configuration list for PBXNativeTarget "AudiOWords" */;
+			buildPhases = (
+				14A3BCC1160CD8D400103CF4 /* Sources */,
+				14A3BCC2160CD8D400103CF4 /* Frameworks */,
+				14A3BCC3160CD8D400103CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudiOWords;
+			productName = AudiOWords;
+			productReference = 14A3BCC5160CD8D400103CF4 /* AudiOWords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14A3BCE5160CD8D400103CF4 /* AudiOWordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A3BCFB160CD8D400103CF4 /* Build configuration list for PBXNativeTarget "AudiOWordsTests" */;
+			buildPhases = (
+				14A3BCE1160CD8D400103CF4 /* Sources */,
+				14A3BCE2160CD8D400103CF4 /* Frameworks */,
+				14A3BCE3160CD8D400103CF4 /* Resources */,
+				14A3BCE4160CD8D400103CF4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14A3BCEC160CD8D400103CF4 /* PBXTargetDependency */,
+			);
+			name = AudiOWordsTests;
+			productName = AudiOWordsTests;
+			productReference = 14A3BCE6160CD8D400103CF4 /* AudiOWordsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14A3BCBC160CD8D400103CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Spellers;
+			};
+			buildConfigurationList = 14A3BCBF160CD8D400103CF4 /* Build configuration list for PBXProject "AudiOWords" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14A3BCBA160CD8D400103CF4;
+			productRefGroup = 14A3BCC6160CD8D400103CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14A3BCC4160CD8D400103CF4 /* AudiOWords */,
+				14A3BCE5160CD8D400103CF4 /* AudiOWordsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14A3BCC3160CD8D400103CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A3BCD4160CD8D400103CF4 /* InfoPlist.strings in Resources */,
+				14A3BD04160CD93F00103CF4 /* MainMenuVC.xib in Resources */,
+				14A3BD09160CD98D00103CF4 /* MainGameVC.xib in Resources */,
+				14A3BD0E160CD9BC00103CF4 /* LevelsVC.xib in Resources */,
+				14A3BD13160CDA3C00103CF4 /* SettingsVC.xib in Resources */,
+				14A3BD18160CDB8800103CF4 /* TutorialVC.xib in Resources */,
+				14A3BD1D160CDCDB00103CF4 /* AboutVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A3BCE3160CD8D400103CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A3BCF2160CD8D400103CF4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14A3BCE4160CD8D400103CF4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A3BCC1160CD8D400103CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A3BCD6160CD8D400103CF4 /* main.m in Sources */,
+				14A3BCDA160CD8D400103CF4 /* AppDelegate.m in Sources */,
+				14A3BD03160CD93F00103CF4 /* MainMenuVC.m in Sources */,
+				14A3BD08160CD98D00103CF4 /* MainGameVC.m in Sources */,
+				14A3BD0D160CD9BC00103CF4 /* LevelsVC.m in Sources */,
+				14A3BD12160CDA3C00103CF4 /* SettingsVC.m in Sources */,
+				14A3BD17160CDB8800103CF4 /* TutorialVC.m in Sources */,
+				14A3BD1C160CDCDB00103CF4 /* AboutVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A3BCE1160CD8D400103CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A3BCF5160CD8D400103CF4 /* AudiOWordsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14A3BCEC160CD8D400103CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14A3BCC4160CD8D400103CF4 /* AudiOWords */;
+			targetProxy = 14A3BCEB160CD8D400103CF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14A3BCD2160CD8D400103CF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A3BCD3160CD8D400103CF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14A3BCF0160CD8D400103CF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A3BCF1160CD8D400103CF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14A3BCF6160CD8D400103CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		14A3BCF7160CD8D400103CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14A3BCF9160CD8D400103CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudiOWords/AudiOWords-Prefix.pch";
+				INFOPLIST_FILE = "AudiOWords/AudiOWords-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14A3BCFA160CD8D400103CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudiOWords/AudiOWords-Prefix.pch";
+				INFOPLIST_FILE = "AudiOWords/AudiOWords-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		14A3BCFC160CD8D400103CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudiOWords.app/AudiOWords";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudiOWords/AudiOWords-Prefix.pch";
+				INFOPLIST_FILE = "AudiOWordsTests/AudiOWordsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		14A3BCFD160CD8D400103CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudiOWords.app/AudiOWords";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudiOWords/AudiOWords-Prefix.pch";
+				INFOPLIST_FILE = "AudiOWordsTests/AudiOWordsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14A3BCBF160CD8D400103CF4 /* Build configuration list for PBXProject "AudiOWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A3BCF6160CD8D400103CF4 /* Debug */,
+				14A3BCF7160CD8D400103CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A3BCF8160CD8D400103CF4 /* Build configuration list for PBXNativeTarget "AudiOWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A3BCF9160CD8D400103CF4 /* Debug */,
+				14A3BCFA160CD8D400103CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14A3BCFB160CD8D400103CF4 /* Build configuration list for PBXNativeTarget "AudiOWordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A3BCFC160CD8D400103CF4 /* Debug */,
+				14A3BCFD160CD8D400103CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14A3BCBC160CD8D400103CF4 /* Project object */;
+}
