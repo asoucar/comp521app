@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WVK-MD-siB">
-                                <rect key="frame" x="316" y="326" width="182" height="37"/>
+                                <rect key="frame" x="316" y="326" width="182" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="turns screen green">
                                     <accessibilityTraits key="traits" none="YES" button="YES"/>
@@ -33,7 +33,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ony-tp-H4n">
-                                <rect key="frame" x="354" y="177" width="192" height="37"/>
+                                <rect key="frame" x="354" y="71" width="192" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="turns screen blue"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
