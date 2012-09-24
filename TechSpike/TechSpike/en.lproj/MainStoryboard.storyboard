@@ -26,7 +26,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ptX-kh-ECl" kind="modal" id="SSn-NM-ziZ"/>
+                                    <segue destination="ptX-kh-ECl" kind="replace" splitViewControllerTargetIndex="1" id="SSn-NM-ziZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wit-7K-9BE">
@@ -94,7 +94,7 @@
                     </view>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="382" y="1033"/>
+            <point key="canvasLocation" x="494" y="1001"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZHe-fs-IdP">
@@ -133,7 +133,7 @@
                     <navigationItem key="navigationItem" id="jYl-Jq-fEi"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="-1326" y="1033"/>
+            <point key="canvasLocation" x="-1430" y="1001"/>
         </scene>
     </scenes>
     <classes>
@@ -147,6 +147,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="oOx-D3-Yht"/>
+        <segue reference="C40-rb-MbS"/>
     </inferredMetricsTieBreakers>
 </document>
