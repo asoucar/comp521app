@@ -10,4 +10,11 @@
 
 @interface MainMenuVC : UIViewController
 
+- (IBAction)startGameButton;
+- (IBAction)aboutButton;
+- (IBAction)levelsButton;
+- (IBAction)settingsButton;
+- (IBAction)tutorialButtons;
+
+
 @end

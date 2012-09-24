@@ -7,6 +7,12 @@
 //
 
 #import "MainMenuVC.h"
+#import "MainGameVC.h"
+#import "AboutVC.h"
+#import "LevelsVC.h"
+#import "SettingsVC.h"
+#import "TutorialVC.h"
+
 
 @interface MainMenuVC ()
 
@@ -41,4 +47,33 @@
 	return YES;
 }
 
+- (IBAction)startGameButton
+{
+    MainGameVC *gameVC = [[MainGameVC alloc] init];
+    [self.view.window setRootViewController:gameVC];
+}
+
+- (IBAction)aboutButton
+{
+    AboutVC *aboutVC = [[AboutVC alloc] init];
+    [self.view.window setRootViewController:aboutVC];
+}
+
+- (IBAction)levelsButton
+{
+    LevelsVC *levelVC = [[LevelsVC alloc] init];
+    [self.view.window setRootViewController:levelVC];
+}
+
+- (IBAction)settingsButton
+{
+    SettingsVC *settingVC = [[SettingsVC alloc] init];
+    [self.view.window setRootViewController:settingVC];
+}
+
+- (IBAction)tutorialButtons
+{
+    TutorialVC *tutorialVC = [[TutorialVC alloc] init];
+    [self.view.window setRootViewController:tutorialVC];
+}
 @end

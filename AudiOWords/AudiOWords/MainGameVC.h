@@ -10,4 +10,6 @@
 
 @interface MainGameVC : UIViewController
 
+- (IBAction)backButton;
+
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "AboutVC.h"
+#import "MainMenuVC.h"
 
 @interface AboutVC ()
 
@@ -41,4 +42,9 @@
 	return YES;
 }
 
+- (IBAction)backButton
+{
+    MainMenuVC *menuVC = [[MainMenuVC alloc] init];
+    [self.view.window setRootViewController:menuVC];
+}
 @end

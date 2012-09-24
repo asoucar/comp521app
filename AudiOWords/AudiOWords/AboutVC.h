@@ -10,4 +10,6 @@
 
 @interface AboutVC : UIViewController
 
+- (IBAction)backButton;
+
 @end

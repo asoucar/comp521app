@@ -2,11 +2,12 @@
 //  TutorialVC.m
 //  AudiOWords
 //
-//  Created by Ashley Soucar on 9/21/12.
+//  Created by Ashley Soucar on 9/22/12.
 //  Copyright (c) 2012 Spellers. All rights reserved.
 //
 
 #import "TutorialVC.h"
+#import "MainMenuVC.h"
 
 @interface TutorialVC ()
 
@@ -41,4 +42,9 @@
 	return YES;
 }
 
+- (IBAction)backButton
+{
+    MainMenuVC *menuVC = [[MainMenuVC alloc] init];
+    [self.view.window setRootViewController:menuVC];
+}
 @end
