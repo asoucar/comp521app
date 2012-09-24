@@ -20,6 +20,8 @@
 		397A54EB160C117F0015DA7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397A54CC160C117F0015DA7F /* Foundation.framework */; };
 		397A54F3160C117F0015DA7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 397A54F1160C117F0015DA7F /* InfoPlist.strings */; };
 		397A54F6160C117F0015DA7F /* TechSpikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397A54F5160C117F0015DA7F /* TechSpikeTests.m */; };
+		397D1C591610989600F0EEEF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D1C581610989600F0EEEF /* AudioToolbox.framework */; };
+		397D1C601610997100F0EEEF /* box_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 397D1C5F1610997100F0EEEF /* box_blue.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		397A54F2160C117F0015DA7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		397A54F4160C117F0015DA7F /* TechSpikeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TechSpikeTests.h; sourceTree = "<group>"; };
 		397A54F5160C117F0015DA7F /* TechSpikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechSpikeTests.m; sourceTree = "<group>"; };
+		397D1C581610989600F0EEEF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		397D1C5F1610997100F0EEEF /* box_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = box_blue.png; path = ../../voiceOverTechSpike/voiceOverTechSpike/box_blue.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 				397A54CB160C117F0015DA7F /* UIKit.framework in Frameworks */,
 				397A54CD160C117F0015DA7F /* Foundation.framework in Frameworks */,
 				397A54CF160C117F0015DA7F /* CoreGraphics.framework in Frameworks */,
+				397D1C591610989600F0EEEF /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 		397A54BB160C117F0015DA7F = {
 			isa = PBXGroup;
 			children = (
+				397D1C581610989600F0EEEF /* AudioToolbox.framework */,
 				397A54D0160C117F0015DA7F /* TechSpike */,
 				397A54EE160C117F0015DA7F /* TechSpikeTests */,
 				397A54C9160C117F0015DA7F /* Frameworks */,
@@ -111,6 +117,7 @@
 		397A54D0160C117F0015DA7F /* TechSpike */ = {
 			isa = PBXGroup;
 			children = (
+				397D1C5F1610997100F0EEEF /* box_blue.png */,
 				397A54D9160C117F0015DA7F /* AppDelegate.h */,
 				397A54DA160C117F0015DA7F /* AppDelegate.m */,
 				397A54DC160C117F0015DA7F /* MainStoryboard.storyboard */,
@@ -224,6 +231,7 @@
 			files = (
 				397A54D5160C117F0015DA7F /* InfoPlist.strings in Resources */,
 				397A54DE160C117F0015DA7F /* MainStoryboard.storyboard in Resources */,
+				397D1C601610997100F0EEEF /* box_blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +444,7 @@
 				397A54FB160C117F0015DA7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		397A54FC160C117F0015DA7F /* Build configuration list for PBXNativeTarget "TechSpikeTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +453,7 @@
 				397A54FE160C117F0015DA7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
