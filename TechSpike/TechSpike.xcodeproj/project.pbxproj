@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390200111610A17B005075C9 /* tap.aif in Resources */ = {isa = PBXBuildFile; fileRef = 390200101610A17B005075C9 /* tap.aif */; };
 		397A54CB160C117F0015DA7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397A54CA160C117F0015DA7F /* UIKit.framework */; };
 		397A54CD160C117F0015DA7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397A54CC160C117F0015DA7F /* Foundation.framework */; };
 		397A54CF160C117F0015DA7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397A54CE160C117F0015DA7F /* CoreGraphics.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		390200101610A17B005075C9 /* tap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = tap.aif; path = ../../Soundtest/Soundtest/tap.aif; sourceTree = "<group>"; };
 		397A54C6160C117F0015DA7F /* TechSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		397A54CA160C117F0015DA7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		397A54CC160C117F0015DA7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -134,6 +136,7 @@
 				397A54D2160C117F0015DA7F /* TechSpike-Info.plist */,
 				397A54D3160C117F0015DA7F /* InfoPlist.strings */,
 				397A54D6160C117F0015DA7F /* main.m */,
+				390200101610A17B005075C9 /* tap.aif */,
 				397A54D8160C117F0015DA7F /* TechSpike-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				397A54F3160C117F0015DA7F /* InfoPlist.strings in Resources */,
+				390200111610A17B005075C9 /* tap.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
