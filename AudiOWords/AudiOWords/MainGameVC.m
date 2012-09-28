@@ -13,6 +13,13 @@
 @interface MainGameVC ()
 
 @property (nonatomic, retain) NSMutableArray *levelWords;
+@property (nonatomic, retain) UIImageView *target;
+@property (nonatomic, retain) NSString *nextLetter;
+@property (nonatomic) BOOL isWordSpelled;
+@property (nonatomic, retain) NSMutableArray *thisWordsSpelling;
+@property (nonatomic, retain) GameWord *currentWord;
+@property (nonatomic) int currentIndex;
+@property (nonatomic, retain) NSMutableArray *letterButtons;
 
 @end
 
@@ -34,20 +41,22 @@
     [super viewDidLoad];
     
     self.levelWords = [NSMutableArray array];
+    self.currentIndex = 0;
     
     //eventually to be replaced by call to 'database'
     GameWord *firstWord = [GameWord gameWordWithWord:[NSString stringWithFormat:@"Cat"]];
     GameWord *secondWord = [GameWord gameWordWithWord:[NSString stringWithFormat:@"Dog"]];
     GameWord *thirdWord = [GameWord gameWordWithWord:[NSString stringWithFormat:@"Cow"]];
-    GameWord *fourthWord = [GameWord gameWordWithWord:[NSString stringWithFormat:@"Pig"]];
+    GameWord *fourthWord = [GameWord gameWordWithWord:[NSString stringWithFormat:@"Duck"]];
     
     [self.levelWords addObject:firstWord];
     [self.levelWords addObject:secondWord];
     [self.levelWords addObject:thirdWord];
     [self.levelWords addObject:fourthWord];
     
+    self.currentWord = [levelWords objectAtIndex:self.currentIndex];
     
-    [self setupLevelWithWord:[levelWords objectAtIndex:0]];
+    [self setupLevelWithWord:self.currentWord];
     
 }
 
@@ -67,25 +76,39 @@
 
 -(void)setupLevelWithWord:(GameWord *)word
 {
+    self.isWordSpelled = NO;
     //pull letters from gameword
     
     //create draggable buttons
     //use for loop through letters
-    
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-	[button setTitle:word.theWord forState:UIControlStateNormal];
-    
-	// add drag listener
-	[button addTarget:self action:@selector(wasDragged:withEvent:)
-     forControlEvents:UIControlEventTouchDragInside];
-    
-	// center and size
-	button.frame = CGRectMake((self.view.bounds.size.width - 100)/2.0,
-                              (self.view.bounds.size.height - 50)/4*3,
-                              100, 50);
-    
-	// add it
-	[self.view addSubview:button];
+    int tempCount = 1;
+    for (NSString *lett in self.currentWord.letters) {
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        [button setTitle:word.theWord forState:UIControlStateNormal];
+        
+        // add drag listener
+        [button addTarget:self action:@selector(wasDragged:withEvent:)
+         forControlEvents:UIControlEventTouchDragInside];
+        
+        // center and size
+        button.frame = CGRectMake((self.view.bounds.size.width - 100)/4*tempCount,
+                                  (self.view.bounds.size.height - 50)/5*4,
+                                  100, 50);
+        
+        // add it
+        [self.view addSubview:button];
+        
+        [self.letterButtons addObject:button];
+    }
+    //add pic
+    self.target = [[UIImageView alloc] initWithFrame:CGRectMake((self.view.bounds.size.width)/2.6,
+                                                                (self.view.bounds.size.height)/4,
+                                                                250, 250)];
+    //self.target.image = word.wordImage;
+    //for test
+    UIImage *testImage = [UIImage imageNamed:@"box_blue.png"];
+    self.target.image = testImage;
+    [self.view addSubview:self.target];
 }
 
 #pragma mark - game function
@@ -104,6 +127,57 @@
 	// move button
 	button.center = CGPointMake(button.center.x + delta_x,
                                 button.center.y + delta_y);
+    
+    //if button is dragged into target image
+    if (button.center.x > self.target.bounds.origin.x &&
+        button.center.x > self.target.bounds.origin.x+self.target.bounds.size.width &&
+        button.center.y > self.target.bounds.origin.y &&
+        button.center.y > self.target.bounds.origin.y+self.target.bounds.size.height) {
+        [self isCorrectLetter:button.titleLabel.text];
+    }
+    
+    if (self.isWordSpelled) {
+        //play win sound
+        
+        [self resetScreen];
+        
+        self.currentIndex++;
+        self.currentWord = [self.levelWords objectAtIndex:self.currentIndex];
+        [self setupLevelWithWord:self.currentWord];
+        
+    }
+}
+
+-(void)isCorrectLetter:(NSString *)letter
+{
+    if ([letter isEqualToString:self.nextLetter]) {
+        [self.thisWordsSpelling addObject:letter];
+        //[self.currentWord playHappySound];
+        if (self.thisWordsSpelling.count == self.currentWord.letters.count) {
+            self.isWordSpelled = YES;
+        }
+    }
+    else{
+        //[self.currentWord playSadSound];
+        [self wrongLetter];
+    }
+        
+}
+
+-(void)wrongLetter
+{
+    self.isWordSpelled = NO;
+    [self setupLevelWithWord:self.currentWord];
+    
+    [self resetScreen];
+    [self setupLevelWithWord:self.currentWord];
+}
+
+-(void)resetScreen{
+    [self.target removeFromSuperview];
+    for (UIButton *button in self.letterButtons) {
+        [button removeFromSuperview];
+    }
 }
 
 #pragma mark - navigation button(s)

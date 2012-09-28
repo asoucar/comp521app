@@ -7,15 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface GameWord : NSObject
 
 @property (nonatomic, retain) NSString *theWord;
-@property (nonatomic, retain) UIImage *pic;
+@property (nonatomic, retain) UIImage *wordImage;
 @property (nonatomic, retain) NSMutableArray *letters;
+@property (nonatomic, retain) NSMutableDictionary *sounds;
 
 +(id)gameWordWithWord:(NSString *)aWord;
 
--(id)initWithWord:(NSString *)aWord;
+//-(id)initWithWord:(NSString *)aWord;
+-(void)playHappySound;
+-(void)playSadSound;
 
 @end
