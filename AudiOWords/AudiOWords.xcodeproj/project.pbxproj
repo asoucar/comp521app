@@ -32,6 +32,22 @@
 		14A3BD37160E576500103CF4 /* TutorialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3BD35160E576500103CF4 /* TutorialVC.m */; };
 		14A3BD38160E576500103CF4 /* TutorialVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A3BD36160E576500103CF4 /* TutorialVC.xib */; };
 		14C1BD9716160EBB00CCB3AA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */; };
+		14C1BDAC16162DB200CCB3AA /* happycat.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA416162DB200CCB3AA /* happycat.aiff */; };
+		14C1BDAD16162DB200CCB3AA /* happycheering.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA516162DB200CCB3AA /* happycheering.aiff */; };
+		14C1BDAE16162DB200CCB3AA /* happycow.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA616162DB200CCB3AA /* happycow.aiff */; };
+		14C1BDAF16162DB200CCB3AA /* happydog.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA716162DB200CCB3AA /* happydog.aiff */; };
+		14C1BDB016162DB200CCB3AA /* happyduck.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA816162DB200CCB3AA /* happyduck.aiff */; };
+		14C1BDB116162DB200CCB3AA /* happyfrog.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA916162DB200CCB3AA /* happyfrog.aiff */; };
+		14C1BDB216162DB200CCB3AA /* happyram.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDAA16162DB200CCB3AA /* happyram.aiff */; };
+		14C1BDB316162DB200CCB3AA /* happysound.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDAB16162DB200CCB3AA /* happysound.aiff */; };
+		14C1BDBE16162DB700CCB3AA /* sadbee.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDB616162DB700CCB3AA /* sadbee.aiff */; };
+		14C1BDBF16162DB700CCB3AA /* sadcat.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDB716162DB700CCB3AA /* sadcat.aiff */; };
+		14C1BDC016162DB700CCB3AA /* sadcow.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDB816162DB700CCB3AA /* sadcow.aiff */; };
+		14C1BDC116162DB700CCB3AA /* saddog.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDB916162DB700CCB3AA /* saddog.aiff */; };
+		14C1BDC216162DB700CCB3AA /* sadduck.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDBA16162DB700CCB3AA /* sadduck.aiff */; };
+		14C1BDC316162DB700CCB3AA /* sadfrog.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDBB16162DB700CCB3AA /* sadfrog.aiff */; };
+		14C1BDC416162DB700CCB3AA /* sadram.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDBC16162DB700CCB3AA /* sadram.aiff */; };
+		14C1BDC516162DB700CCB3AA /* sadsound.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDBD16162DB700CCB3AA /* sadsound.aiff */; };
 		14FBF769161368EA0085982F /* GameWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FBF768161368EA0085982F /* GameWord.m */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +98,22 @@
 		14A3BD35160E576500103CF4 /* TutorialVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialVC.m; sourceTree = "<group>"; };
 		14A3BD36160E576500103CF4 /* TutorialVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialVC.xib; sourceTree = "<group>"; };
 		14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		14C1BDA416162DB200CCB3AA /* happycat.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happycat.aiff; sourceTree = "<group>"; };
+		14C1BDA516162DB200CCB3AA /* happycheering.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happycheering.aiff; sourceTree = "<group>"; };
+		14C1BDA616162DB200CCB3AA /* happycow.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happycow.aiff; sourceTree = "<group>"; };
+		14C1BDA716162DB200CCB3AA /* happydog.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happydog.aiff; sourceTree = "<group>"; };
+		14C1BDA816162DB200CCB3AA /* happyduck.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happyduck.aiff; sourceTree = "<group>"; };
+		14C1BDA916162DB200CCB3AA /* happyfrog.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happyfrog.aiff; sourceTree = "<group>"; };
+		14C1BDAA16162DB200CCB3AA /* happyram.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happyram.aiff; sourceTree = "<group>"; };
+		14C1BDAB16162DB200CCB3AA /* happysound.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happysound.aiff; sourceTree = "<group>"; };
+		14C1BDB616162DB700CCB3AA /* sadbee.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadbee.aiff; sourceTree = "<group>"; };
+		14C1BDB716162DB700CCB3AA /* sadcat.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadcat.aiff; sourceTree = "<group>"; };
+		14C1BDB816162DB700CCB3AA /* sadcow.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadcow.aiff; sourceTree = "<group>"; };
+		14C1BDB916162DB700CCB3AA /* saddog.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = saddog.aiff; sourceTree = "<group>"; };
+		14C1BDBA16162DB700CCB3AA /* sadduck.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadduck.aiff; sourceTree = "<group>"; };
+		14C1BDBB16162DB700CCB3AA /* sadfrog.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadfrog.aiff; sourceTree = "<group>"; };
+		14C1BDBC16162DB700CCB3AA /* sadram.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadram.aiff; sourceTree = "<group>"; };
+		14C1BDBD16162DB700CCB3AA /* sadsound.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadsound.aiff; sourceTree = "<group>"; };
 		14FBF767161368EA0085982F /* GameWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameWord.h; sourceTree = "<group>"; };
 		14FBF768161368EA0085982F /* GameWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameWord.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +176,8 @@
 		14A3BCCF160CD8D400103CF4 /* AudiOWords */ = {
 			isa = PBXGroup;
 			children = (
+				14C1BDB516162DB700CCB3AA /* Sad Sounds */,
+				14C1BDA316162DB200CCB3AA /* Happy Sounds */,
 				14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */,
 				14A3BD32160E54ED00103CF4 /* box_blue.png */,
 				14A3BCD8160CD8D400103CF4 /* AppDelegate.h */,
@@ -201,6 +235,37 @@
 				14A3BCF0160CD8D400103CF4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14C1BDA316162DB200CCB3AA /* Happy Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				14C1BDA416162DB200CCB3AA /* happycat.aiff */,
+				14C1BDA516162DB200CCB3AA /* happycheering.aiff */,
+				14C1BDA616162DB200CCB3AA /* happycow.aiff */,
+				14C1BDA716162DB200CCB3AA /* happydog.aiff */,
+				14C1BDA816162DB200CCB3AA /* happyduck.aiff */,
+				14C1BDA916162DB200CCB3AA /* happyfrog.aiff */,
+				14C1BDAA16162DB200CCB3AA /* happyram.aiff */,
+				14C1BDAB16162DB200CCB3AA /* happysound.aiff */,
+			);
+			path = "Happy Sounds";
+			sourceTree = "<group>";
+		};
+		14C1BDB516162DB700CCB3AA /* Sad Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				14C1BDB616162DB700CCB3AA /* sadbee.aiff */,
+				14C1BDB716162DB700CCB3AA /* sadcat.aiff */,
+				14C1BDB816162DB700CCB3AA /* sadcow.aiff */,
+				14C1BDB916162DB700CCB3AA /* saddog.aiff */,
+				14C1BDBA16162DB700CCB3AA /* sadduck.aiff */,
+				14C1BDBB16162DB700CCB3AA /* sadfrog.aiff */,
+				14C1BDBC16162DB700CCB3AA /* sadram.aiff */,
+				14C1BDBD16162DB700CCB3AA /* sadsound.aiff */,
+			);
+			name = "Sad Sounds";
+			path = "Happy Sounds/Sad Sounds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +347,22 @@
 				14A3BD1D160CDCDB00103CF4 /* AboutVC.xib in Resources */,
 				14A3BD33160E54ED00103CF4 /* box_blue.png in Resources */,
 				14A3BD38160E576500103CF4 /* TutorialVC.xib in Resources */,
+				14C1BDAC16162DB200CCB3AA /* happycat.aiff in Resources */,
+				14C1BDAD16162DB200CCB3AA /* happycheering.aiff in Resources */,
+				14C1BDAE16162DB200CCB3AA /* happycow.aiff in Resources */,
+				14C1BDAF16162DB200CCB3AA /* happydog.aiff in Resources */,
+				14C1BDB016162DB200CCB3AA /* happyduck.aiff in Resources */,
+				14C1BDB116162DB200CCB3AA /* happyfrog.aiff in Resources */,
+				14C1BDB216162DB200CCB3AA /* happyram.aiff in Resources */,
+				14C1BDB316162DB200CCB3AA /* happysound.aiff in Resources */,
+				14C1BDBE16162DB700CCB3AA /* sadbee.aiff in Resources */,
+				14C1BDBF16162DB700CCB3AA /* sadcat.aiff in Resources */,
+				14C1BDC016162DB700CCB3AA /* sadcow.aiff in Resources */,
+				14C1BDC116162DB700CCB3AA /* saddog.aiff in Resources */,
+				14C1BDC216162DB700CCB3AA /* sadduck.aiff in Resources */,
+				14C1BDC316162DB700CCB3AA /* sadfrog.aiff in Resources */,
+				14C1BDC416162DB700CCB3AA /* sadram.aiff in Resources */,
+				14C1BDC516162DB700CCB3AA /* sadsound.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
