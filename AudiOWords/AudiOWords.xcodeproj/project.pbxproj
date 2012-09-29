@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1466E99C16176FB00087426A /* cat.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1466E99616176FB00087426A /* cat.PNG */; };
+		1466E99D16176FB00087426A /* cow.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1466E99716176FB00087426A /* cow.PNG */; };
+		1466E99E16176FB00087426A /* cow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1466E99816176FB00087426A /* cow.svg */; };
+		1466E99F16176FB00087426A /* dog.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1466E99916176FB00087426A /* dog.PNG */; };
+		1466E9A016176FB00087426A /* pig.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1466E99A16176FB00087426A /* pig.PNG */; };
+		1466E9A116176FB00087426A /* rat.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1466E99B16176FB00087426A /* rat.PNG */; };
 		14A3BCCA160CD8D400103CF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3BCC9160CD8D400103CF4 /* UIKit.framework */; };
 		14A3BCCC160CD8D400103CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3BCCB160CD8D400103CF4 /* Foundation.framework */; };
 		14A3BCCE160CD8D400103CF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3BCCD160CD8D400103CF4 /* CoreGraphics.framework */; };
@@ -62,6 +68,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1466E99616176FB00087426A /* cat.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.PNG; sourceTree = "<group>"; };
+		1466E99716176FB00087426A /* cow.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cow.PNG; sourceTree = "<group>"; };
+		1466E99816176FB00087426A /* cow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = cow.svg; sourceTree = "<group>"; };
+		1466E99916176FB00087426A /* dog.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.PNG; sourceTree = "<group>"; };
+		1466E99A16176FB00087426A /* pig.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig.PNG; sourceTree = "<group>"; };
+		1466E99B16176FB00087426A /* rat.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rat.PNG; sourceTree = "<group>"; };
 		14A3BCC5160CD8D400103CF4 /* AudiOWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiOWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A3BCC9160CD8D400103CF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		14A3BCCB160CD8D400103CF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +155,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1466E99516176FB00087426A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1466E99616176FB00087426A /* cat.PNG */,
+				1466E99716176FB00087426A /* cow.PNG */,
+				1466E99816176FB00087426A /* cow.svg */,
+				1466E99916176FB00087426A /* dog.PNG */,
+				1466E99A16176FB00087426A /* pig.PNG */,
+				1466E99B16176FB00087426A /* rat.PNG */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		14A3BCBA160CD8D400103CF4 = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +201,7 @@
 		14A3BCCF160CD8D400103CF4 /* AudiOWords */ = {
 			isa = PBXGroup;
 			children = (
+				1466E99516176FB00087426A /* images */,
 				14C1BDB516162DB700CCB3AA /* Sad Sounds */,
 				14C1BDA316162DB200CCB3AA /* Happy Sounds */,
 				14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */,
@@ -363,6 +389,12 @@
 				14C1BDC316162DB700CCB3AA /* sadfrog.aiff in Resources */,
 				14C1BDC416162DB700CCB3AA /* sadram.aiff in Resources */,
 				14C1BDC516162DB700CCB3AA /* sadsound.aiff in Resources */,
+				1466E99C16176FB00087426A /* cat.PNG in Resources */,
+				1466E99D16176FB00087426A /* cow.PNG in Resources */,
+				1466E99E16176FB00087426A /* cow.svg in Resources */,
+				1466E99F16176FB00087426A /* dog.PNG in Resources */,
+				1466E9A016176FB00087426A /* pig.PNG in Resources */,
+				1466E9A116176FB00087426A /* rat.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

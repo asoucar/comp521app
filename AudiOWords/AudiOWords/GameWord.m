@@ -35,7 +35,7 @@
             [letters addObject:iletter];
         }
         
-        //self.wordImage = [UIImage imageNamed: [NSString stringWithFormat:@"%@.png", aWord]];
+        self.wordImage = [UIImage imageNamed: [NSString stringWithFormat:@"%@.PNG", aWord]];
         //NSString *happysoundPath = [[NSBundle mainBundle] pathForResource: [NSString stringWithFormat:@"%@_happy", aWord] ofType:@"aif"];
         NSString *happysoundPath = [[NSBundle mainBundle] pathForResource: [NSString stringWithFormat:@"happysound"] ofType:@"aiff"];
         NSURL *happysoundURL =[NSURL fileURLWithPath:happysoundPath];

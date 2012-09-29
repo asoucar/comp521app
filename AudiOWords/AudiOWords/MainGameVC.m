@@ -53,7 +53,7 @@
     GameWord *firstWord = [GameWord gameWordWithWord:[NSString stringWithFormat:@"Cat"]];
     GameWord *secondWord = [GameWord gameWordWithWord:[NSString stringWithFormat:@"Dog"]];
     GameWord *thirdWord = [GameWord gameWordWithWord:[NSString stringWithFormat:@"Cow"]];
-    GameWord *fourthWord = [GameWord gameWordWithWord:[NSString stringWithFormat:@"Duck"]];
+    GameWord *fourthWord = [GameWord gameWordWithWord:[NSString stringWithFormat:@"Pig"]];
     
     [self.levelWords addObject:firstWord];
     [self.levelWords addObject:secondWord];
@@ -89,10 +89,10 @@
     self.target = [[UIImageView alloc] initWithFrame:CGRectMake((self.view.bounds.size.width)/2.6,
                                                                 (self.view.bounds.size.height)/4,
                                                                 250, 250)];
-    //self.target.image = word.wordImage;
+    self.target.image = word.wordImage;
     //for test
-    UIImage *testImage = [UIImage imageNamed:@"box_blue.png"];
-    self.target.image = testImage;
+    //UIImage *testImage = [UIImage imageNamed:@"box_blue.png"];
+    //self.target.image = testImage;
     [self.view addSubview:self.target];
     
     //pull letters from gameword
@@ -164,6 +164,7 @@
     
     if (self.isWordSpelled) {
         //play win sound
+        [self playWinSound];
         [self resetScreen];
         if (self.levelWords.count == self.currentIndex+1) {
             UILabel *winLabel = [[UILabel alloc] initWithFrame:CGRectMake(475, 200, 300, 300)];
@@ -215,6 +216,15 @@
     [self.thisWordsSpelling removeAllObjects];
     self.letterIndex = 0;
 
+}
+
+-(void)playWinSound
+{
+    NSString *happysoundPath = [[NSBundle mainBundle] pathForResource: [NSString stringWithFormat:@"happycheering"] ofType:@"aiff"];
+    NSURL *happysoundURL =[NSURL fileURLWithPath:happysoundPath];
+    SystemSoundID happysoundFileID;
+    AudioServicesCreateSystemSoundID ((__bridge CFURLRef)happysoundURL, &happysoundFileID);
+    AudioServicesPlaySystemSound (happysoundFileID);
 }
 
 #pragma mark - navigation button(s)
