@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3926A3431634B2BC006B6818 /* word_level_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3926A3421634B2BC006B6818 /* word_level_list.txt */; };
 		39BACB2F1625E33000E1CA35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BACB2E1625E33000E1CA35 /* UIKit.framework */; };
 		39BACB311625E33000E1CA35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BACB301625E33000E1CA35 /* Foundation.framework */; };
 		39BACB331625E33000E1CA35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BACB321625E33000E1CA35 /* CoreGraphics.framework */; };
@@ -23,7 +24,6 @@
 		39BACB551625E33000E1CA35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BACB301625E33000E1CA35 /* Foundation.framework */; };
 		39BACB5D1625E33000E1CA35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39BACB5B1625E33000E1CA35 /* InfoPlist.strings */; };
 		39BACB601625E33000E1CA35 /* Database_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BACB5F1625E33000E1CA35 /* Database_TestTests.m */; };
-		39BACB6E1626026000E1CA35 /* word_level_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = 39BACB6D1626026000E1CA35 /* word_level_list.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3926A3411634B11D006B6818 /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
+		3926A3421634B2BC006B6818 /* word_level_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = word_level_list.txt; sourceTree = "<group>"; };
 		39BACB2A1625E33000E1CA35 /* Database Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Database Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BACB2E1625E33000E1CA35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		39BACB301625E33000E1CA35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,7 +61,6 @@
 		39BACB5C1625E33000E1CA35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39BACB5E1625E33000E1CA35 /* Database_TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Database_TestTests.h; sourceTree = "<group>"; };
 		39BACB5F1625E33000E1CA35 /* Database_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Database_TestTests.m; sourceTree = "<group>"; };
-		39BACB6D1626026000E1CA35 /* word_level_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = word_level_list.txt; path = ../../../Documents/word_level_list.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,11 +120,12 @@
 		39BACB341625E33000E1CA35 /* Database Test */ = {
 			isa = PBXGroup;
 			children = (
-				39BACB6D1626026000E1CA35 /* word_level_list.txt */,
+				3926A3421634B2BC006B6818 /* word_level_list.txt */,
 				39BACB3D1625E33000E1CA35 /* AppDelegate.h */,
 				39BACB3E1625E33000E1CA35 /* AppDelegate.m */,
 				39BACB461625E33000E1CA35 /* MainStoryboard.storyboard */,
 				39BACB491625E33000E1CA35 /* ViewController.h */,
+				3926A3411634B11D006B6818 /* NSMutableArray+Shuffling.h */,
 				39BACB4A1625E33000E1CA35 /* ViewController.m */,
 				39BACB351625E33000E1CA35 /* Supporting Files */,
 			);
@@ -239,7 +241,7 @@
 				39BACB431625E33000E1CA35 /* Default@2x.png in Resources */,
 				39BACB451625E33000E1CA35 /* Default-568h@2x.png in Resources */,
 				39BACB481625E33000E1CA35 /* MainStoryboard.storyboard in Resources */,
-				39BACB6E1626026000E1CA35 /* word_level_list.txt in Resources */,
+				3926A3431634B2BC006B6818 /* word_level_list.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +454,7 @@
 				39BACB651625E33000E1CA35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39BACB661625E33000E1CA35 /* Build configuration list for PBXNativeTarget "Database TestTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +463,7 @@
 				39BACB681625E33000E1CA35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

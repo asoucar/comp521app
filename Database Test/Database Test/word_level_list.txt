@@ -1,0 +1,5 @@
+cat 1
+dog 1
+cow 1
+pig 1
+rat 2
