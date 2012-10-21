@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1466E99C16176FB00087426A /* cat.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1466E99616176FB00087426A /* cat.PNG */; };
 		1466E99D16176FB00087426A /* cow.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1466E99716176FB00087426A /* cow.PNG */; };
 		1466E99F16176FB00087426A /* dog.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1466E99916176FB00087426A /* dog.PNG */; };
 		1466E9A016176FB00087426A /* pig.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1466E99A16176FB00087426A /* pig.PNG */; };
@@ -36,23 +35,19 @@
 		14A3BD33160E54ED00103CF4 /* box_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A3BD32160E54ED00103CF4 /* box_blue.png */; };
 		14A3BD37160E576500103CF4 /* TutorialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3BD35160E576500103CF4 /* TutorialVC.m */; };
 		14A3BD38160E576500103CF4 /* TutorialVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A3BD36160E576500103CF4 /* TutorialVC.xib */; };
+		14AF705216349CF400B0D14C /* sadbee.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14AF704A16349CF400B0D14C /* sadbee.aiff */; };
+		14AF705316349CF400B0D14C /* sadcat.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14AF704B16349CF400B0D14C /* sadcat.aiff */; };
+		14AF705416349CF400B0D14C /* sadcow.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14AF704C16349CF400B0D14C /* sadcow.aiff */; };
+		14AF705516349CF400B0D14C /* saddog.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14AF704D16349CF400B0D14C /* saddog.aiff */; };
+		14AF705616349CF400B0D14C /* sadduck.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14AF704E16349CF400B0D14C /* sadduck.aiff */; };
+		14AF705716349CF400B0D14C /* sadfrog.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14AF704F16349CF400B0D14C /* sadfrog.aiff */; };
+		14AF705816349CF400B0D14C /* sadram.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14AF705016349CF400B0D14C /* sadram.aiff */; };
+		14AF705916349CF400B0D14C /* sadsound1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14AF705116349CF400B0D14C /* sadsound1.aiff */; };
+		14AF705D16349E0300B0D14C /* EndRoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AF705B16349E0300B0D14C /* EndRoundVC.m */; };
+		14AF705E16349E0300B0D14C /* EndRoundVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14AF705C16349E0300B0D14C /* EndRoundVC.xib */; };
+		14AF70601634AB5F00B0D14C /* cat.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 14AF705F1634AB5F00B0D14C /* cat.PNG */; };
 		14C1BD9716160EBB00CCB3AA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */; };
-		14C1BDAC16162DB200CCB3AA /* happycat.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA416162DB200CCB3AA /* happycat.aiff */; };
 		14C1BDAD16162DB200CCB3AA /* happycheering.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA516162DB200CCB3AA /* happycheering.aiff */; };
-		14C1BDAE16162DB200CCB3AA /* happycow.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA616162DB200CCB3AA /* happycow.aiff */; };
-		14C1BDAF16162DB200CCB3AA /* happydog.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA716162DB200CCB3AA /* happydog.aiff */; };
-		14C1BDB016162DB200CCB3AA /* happyduck.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA816162DB200CCB3AA /* happyduck.aiff */; };
-		14C1BDB116162DB200CCB3AA /* happyfrog.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA916162DB200CCB3AA /* happyfrog.aiff */; };
-		14C1BDB216162DB200CCB3AA /* happyram.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDAA16162DB200CCB3AA /* happyram.aiff */; };
-		14C1BDB316162DB200CCB3AA /* happysound.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDAB16162DB200CCB3AA /* happysound.aiff */; };
-		14C1BDBE16162DB700CCB3AA /* sadbee.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDB616162DB700CCB3AA /* sadbee.aiff */; };
-		14C1BDBF16162DB700CCB3AA /* sadcat.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDB716162DB700CCB3AA /* sadcat.aiff */; };
-		14C1BDC016162DB700CCB3AA /* sadcow.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDB816162DB700CCB3AA /* sadcow.aiff */; };
-		14C1BDC116162DB700CCB3AA /* saddog.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDB916162DB700CCB3AA /* saddog.aiff */; };
-		14C1BDC216162DB700CCB3AA /* sadduck.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDBA16162DB700CCB3AA /* sadduck.aiff */; };
-		14C1BDC316162DB700CCB3AA /* sadfrog.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDBB16162DB700CCB3AA /* sadfrog.aiff */; };
-		14C1BDC416162DB700CCB3AA /* sadram.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDBC16162DB700CCB3AA /* sadram.aiff */; };
-		14C1BDC516162DB700CCB3AA /* sadsound.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDBD16162DB700CCB3AA /* sadsound.aiff */; };
 		14FBF769161368EA0085982F /* GameWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FBF768161368EA0085982F /* GameWord.m */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +62,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1466E99616176FB00087426A /* cat.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.PNG; sourceTree = "<group>"; };
 		1466E99716176FB00087426A /* cow.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cow.PNG; sourceTree = "<group>"; };
 		1466E99916176FB00087426A /* dog.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.PNG; sourceTree = "<group>"; };
 		1466E99A16176FB00087426A /* pig.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig.PNG; sourceTree = "<group>"; };
@@ -107,23 +101,20 @@
 		14A3BD34160E576500103CF4 /* TutorialVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialVC.h; sourceTree = "<group>"; };
 		14A3BD35160E576500103CF4 /* TutorialVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialVC.m; sourceTree = "<group>"; };
 		14A3BD36160E576500103CF4 /* TutorialVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialVC.xib; sourceTree = "<group>"; };
+		14AF704A16349CF400B0D14C /* sadbee.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadbee.aiff; sourceTree = "<group>"; };
+		14AF704B16349CF400B0D14C /* sadcat.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadcat.aiff; sourceTree = "<group>"; };
+		14AF704C16349CF400B0D14C /* sadcow.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadcow.aiff; sourceTree = "<group>"; };
+		14AF704D16349CF400B0D14C /* saddog.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = saddog.aiff; sourceTree = "<group>"; };
+		14AF704E16349CF400B0D14C /* sadduck.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadduck.aiff; sourceTree = "<group>"; };
+		14AF704F16349CF400B0D14C /* sadfrog.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadfrog.aiff; sourceTree = "<group>"; };
+		14AF705016349CF400B0D14C /* sadram.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadram.aiff; sourceTree = "<group>"; };
+		14AF705116349CF400B0D14C /* sadsound1.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadsound1.aiff; sourceTree = "<group>"; };
+		14AF705A16349E0300B0D14C /* EndRoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndRoundVC.h; path = ../EndRoundVC.h; sourceTree = "<group>"; };
+		14AF705B16349E0300B0D14C /* EndRoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndRoundVC.m; path = ../EndRoundVC.m; sourceTree = "<group>"; };
+		14AF705C16349E0300B0D14C /* EndRoundVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EndRoundVC.xib; path = ../EndRoundVC.xib; sourceTree = "<group>"; };
+		14AF705F1634AB5F00B0D14C /* cat.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.PNG; sourceTree = "<group>"; };
 		14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		14C1BDA416162DB200CCB3AA /* happycat.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happycat.aiff; sourceTree = "<group>"; };
 		14C1BDA516162DB200CCB3AA /* happycheering.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happycheering.aiff; sourceTree = "<group>"; };
-		14C1BDA616162DB200CCB3AA /* happycow.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happycow.aiff; sourceTree = "<group>"; };
-		14C1BDA716162DB200CCB3AA /* happydog.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happydog.aiff; sourceTree = "<group>"; };
-		14C1BDA816162DB200CCB3AA /* happyduck.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happyduck.aiff; sourceTree = "<group>"; };
-		14C1BDA916162DB200CCB3AA /* happyfrog.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happyfrog.aiff; sourceTree = "<group>"; };
-		14C1BDAA16162DB200CCB3AA /* happyram.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happyram.aiff; sourceTree = "<group>"; };
-		14C1BDAB16162DB200CCB3AA /* happysound.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happysound.aiff; sourceTree = "<group>"; };
-		14C1BDB616162DB700CCB3AA /* sadbee.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadbee.aiff; sourceTree = "<group>"; };
-		14C1BDB716162DB700CCB3AA /* sadcat.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadcat.aiff; sourceTree = "<group>"; };
-		14C1BDB816162DB700CCB3AA /* sadcow.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadcow.aiff; sourceTree = "<group>"; };
-		14C1BDB916162DB700CCB3AA /* saddog.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = saddog.aiff; sourceTree = "<group>"; };
-		14C1BDBA16162DB700CCB3AA /* sadduck.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadduck.aiff; sourceTree = "<group>"; };
-		14C1BDBB16162DB700CCB3AA /* sadfrog.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadfrog.aiff; sourceTree = "<group>"; };
-		14C1BDBC16162DB700CCB3AA /* sadram.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadram.aiff; sourceTree = "<group>"; };
-		14C1BDBD16162DB700CCB3AA /* sadsound.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sadsound.aiff; sourceTree = "<group>"; };
 		14FBF767161368EA0085982F /* GameWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameWord.h; sourceTree = "<group>"; };
 		14FBF768161368EA0085982F /* GameWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameWord.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +147,7 @@
 		1466E99516176FB00087426A /* images */ = {
 			isa = PBXGroup;
 			children = (
-				1466E99616176FB00087426A /* cat.PNG */,
+				14AF705F1634AB5F00B0D14C /* cat.PNG */,
 				1466E99716176FB00087426A /* cow.PNG */,
 				1466E99916176FB00087426A /* dog.PNG */,
 				1466E99A16176FB00087426A /* pig.PNG */,
@@ -198,8 +189,8 @@
 		14A3BCCF160CD8D400103CF4 /* AudiOWords */ = {
 			isa = PBXGroup;
 			children = (
+				14AF704916349CF400B0D14C /* Sad Sounds */,
 				1466E99516176FB00087426A /* images */,
-				14C1BDB516162DB700CCB3AA /* Sad Sounds */,
 				14C1BDA316162DB200CCB3AA /* Happy Sounds */,
 				14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */,
 				14A3BD32160E54ED00103CF4 /* box_blue.png */,
@@ -226,6 +217,9 @@
 				14A3BD34160E576500103CF4 /* TutorialVC.h */,
 				14A3BD35160E576500103CF4 /* TutorialVC.m */,
 				14A3BD36160E576500103CF4 /* TutorialVC.xib */,
+				14AF705A16349E0300B0D14C /* EndRoundVC.h */,
+				14AF705B16349E0300B0D14C /* EndRoundVC.m */,
+				14AF705C16349E0300B0D14C /* EndRoundVC.xib */,
 			);
 			path = AudiOWords;
 			sourceTree = "<group>";
@@ -260,35 +254,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		14AF704916349CF400B0D14C /* Sad Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				14AF704A16349CF400B0D14C /* sadbee.aiff */,
+				14AF704B16349CF400B0D14C /* sadcat.aiff */,
+				14AF704C16349CF400B0D14C /* sadcow.aiff */,
+				14AF704D16349CF400B0D14C /* saddog.aiff */,
+				14AF704E16349CF400B0D14C /* sadduck.aiff */,
+				14AF704F16349CF400B0D14C /* sadfrog.aiff */,
+				14AF705016349CF400B0D14C /* sadram.aiff */,
+				14AF705116349CF400B0D14C /* sadsound1.aiff */,
+			);
+			path = "Sad Sounds";
+			sourceTree = "<group>";
+		};
 		14C1BDA316162DB200CCB3AA /* Happy Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				14C1BDA416162DB200CCB3AA /* happycat.aiff */,
 				14C1BDA516162DB200CCB3AA /* happycheering.aiff */,
-				14C1BDA616162DB200CCB3AA /* happycow.aiff */,
-				14C1BDA716162DB200CCB3AA /* happydog.aiff */,
-				14C1BDA816162DB200CCB3AA /* happyduck.aiff */,
-				14C1BDA916162DB200CCB3AA /* happyfrog.aiff */,
-				14C1BDAA16162DB200CCB3AA /* happyram.aiff */,
-				14C1BDAB16162DB200CCB3AA /* happysound.aiff */,
 			);
 			path = "Happy Sounds";
-			sourceTree = "<group>";
-		};
-		14C1BDB516162DB700CCB3AA /* Sad Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				14C1BDB616162DB700CCB3AA /* sadbee.aiff */,
-				14C1BDB716162DB700CCB3AA /* sadcat.aiff */,
-				14C1BDB816162DB700CCB3AA /* sadcow.aiff */,
-				14C1BDB916162DB700CCB3AA /* saddog.aiff */,
-				14C1BDBA16162DB700CCB3AA /* sadduck.aiff */,
-				14C1BDBB16162DB700CCB3AA /* sadfrog.aiff */,
-				14C1BDBC16162DB700CCB3AA /* sadram.aiff */,
-				14C1BDBD16162DB700CCB3AA /* sadsound.aiff */,
-			);
-			name = "Sad Sounds";
-			path = "Happy Sounds/Sad Sounds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,27 +356,21 @@
 				14A3BD1D160CDCDB00103CF4 /* AboutVC.xib in Resources */,
 				14A3BD33160E54ED00103CF4 /* box_blue.png in Resources */,
 				14A3BD38160E576500103CF4 /* TutorialVC.xib in Resources */,
-				14C1BDAC16162DB200CCB3AA /* happycat.aiff in Resources */,
 				14C1BDAD16162DB200CCB3AA /* happycheering.aiff in Resources */,
-				14C1BDAE16162DB200CCB3AA /* happycow.aiff in Resources */,
-				14C1BDAF16162DB200CCB3AA /* happydog.aiff in Resources */,
-				14C1BDB016162DB200CCB3AA /* happyduck.aiff in Resources */,
-				14C1BDB116162DB200CCB3AA /* happyfrog.aiff in Resources */,
-				14C1BDB216162DB200CCB3AA /* happyram.aiff in Resources */,
-				14C1BDB316162DB200CCB3AA /* happysound.aiff in Resources */,
-				14C1BDBE16162DB700CCB3AA /* sadbee.aiff in Resources */,
-				14C1BDBF16162DB700CCB3AA /* sadcat.aiff in Resources */,
-				14C1BDC016162DB700CCB3AA /* sadcow.aiff in Resources */,
-				14C1BDC116162DB700CCB3AA /* saddog.aiff in Resources */,
-				14C1BDC216162DB700CCB3AA /* sadduck.aiff in Resources */,
-				14C1BDC316162DB700CCB3AA /* sadfrog.aiff in Resources */,
-				14C1BDC416162DB700CCB3AA /* sadram.aiff in Resources */,
-				14C1BDC516162DB700CCB3AA /* sadsound.aiff in Resources */,
-				1466E99C16176FB00087426A /* cat.PNG in Resources */,
 				1466E99D16176FB00087426A /* cow.PNG in Resources */,
 				1466E99F16176FB00087426A /* dog.PNG in Resources */,
 				1466E9A016176FB00087426A /* pig.PNG in Resources */,
 				1466E9A116176FB00087426A /* rat.PNG in Resources */,
+				14AF705216349CF400B0D14C /* sadbee.aiff in Resources */,
+				14AF705316349CF400B0D14C /* sadcat.aiff in Resources */,
+				14AF705416349CF400B0D14C /* sadcow.aiff in Resources */,
+				14AF705516349CF400B0D14C /* saddog.aiff in Resources */,
+				14AF705616349CF400B0D14C /* sadduck.aiff in Resources */,
+				14AF705716349CF400B0D14C /* sadfrog.aiff in Resources */,
+				14AF705816349CF400B0D14C /* sadram.aiff in Resources */,
+				14AF705916349CF400B0D14C /* sadsound1.aiff in Resources */,
+				14AF705E16349E0300B0D14C /* EndRoundVC.xib in Resources */,
+				14AF70601634AB5F00B0D14C /* cat.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +414,7 @@
 				14A3BD1C160CDCDB00103CF4 /* AboutVC.m in Sources */,
 				14A3BD37160E576500103CF4 /* TutorialVC.m in Sources */,
 				14FBF769161368EA0085982F /* GameWord.m in Sources */,
+				14AF705D16349E0300B0D14C /* EndRoundVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

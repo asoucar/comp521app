@@ -50,6 +50,10 @@
 - (IBAction)startGameButton
 {
     MainGameVC *gameVC = [[MainGameVC alloc] init];
+    
+    NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+    [prefs setInteger:1 forKey:@"level"];
+    
     [self.view.window setRootViewController:gameVC];
 }
 
@@ -74,6 +78,10 @@
 - (IBAction)tutorialButtons
 {
     TutorialVC *tutorialVC = [[TutorialVC alloc] init];
+    
+    NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+    [prefs setInteger:0 forKey:@"level"];
+    
     [self.view.window setRootViewController:tutorialVC];
 }
 @end

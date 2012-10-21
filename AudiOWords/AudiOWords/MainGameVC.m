@@ -9,6 +9,7 @@
 #import "MainGameVC.h"
 #import "MainMenuVC.h"
 #import "GameWord.h"
+#import "EndRoundVC.h"
 
 @interface MainGameVC ()
 
@@ -22,6 +23,9 @@
 @property (nonatomic, retain) NSMutableArray *letterButtons;
 @property (nonatomic) int letterIndex;
 @property (nonatomic) BOOL wrongLetterBool;
+@property (nonatomic) NSNumber *currLevel;
+@property (nonatomic) double score;
+@property (nonatomic) int timesWrong;
 
 @end
 
@@ -42,11 +46,19 @@
 {
     [super viewDidLoad];
     
+    NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+    
+    self.currLevel = [prefs objectForKey:@"level"];
+    
     self.levelWords = [NSMutableArray array];
     self.currentIndex = 0;
     self.letterIndex = 0;
+    self.timesWrong = 1;
+    self.score = 0;
     self.letterButtons = [NSMutableArray array];
     self.thisWordsSpelling = [NSMutableArray array];
+    
+
     
     
     //eventually to be replaced by call to 'database'
@@ -71,6 +83,7 @@
     [super viewDidUnload];
     [self.levelWords removeAllObjects];
     self.levelWords = nil;
+    
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -90,9 +103,6 @@
                                                                 (self.view.bounds.size.height)/4,
                                                                 250, 250)];
     self.target.image = word.wordImage;
-    //for test
-    //UIImage *testImage = [UIImage imageNamed:@"box_blue.png"];
-    //self.target.image = testImage;
     [self.view addSubview:self.target];
     
     //pull letters from gameword
@@ -165,11 +175,41 @@
     if (self.isWordSpelled) {
         //play win sound
         [self playWinSound];
+        self.score += 25/self.timesWrong;
+        self.timesWrong = 1;
         [self resetScreen];
+        
+        //if finished round
         if (self.levelWords.count == self.currentIndex+1) {
-            UILabel *winLabel = [[UILabel alloc] initWithFrame:CGRectMake(475, 200, 300, 300)];
-            winLabel.text = @"You Win!";
-            [self.view addSubview:winLabel];
+            
+            NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+            NSData *retrData = [prefs objectForKey:@"levelsAndScores"];
+            NSMutableDictionary *levelsAndScores = [NSKeyedUnarchiver unarchiveObjectWithData:retrData];
+
+            if (levelsAndScores != NULL) {
+                NSNumber *scoreForLevel = [NSNumber numberWithDouble:self.score];
+                [levelsAndScores setObject:scoreForLevel forKey:self.currLevel];
+            }
+            else{
+                levelsAndScores = [NSMutableDictionary dictionaryWithCapacity:20];
+                NSNumber *scoreForLevel = [NSNumber numberWithDouble:self.score];
+                [levelsAndScores setObject:scoreForLevel forKey:self.currLevel];
+            }
+            
+            NSData *data = [NSKeyedArchiver archivedDataWithRootObject:levelsAndScores];
+            [prefs setObject:data forKey:@"levelsAndScores"];
+            
+            int totalScore = 0;
+            for (NSNumber *num in levelsAndScores) {
+                totalScore = totalScore + [num intValue];
+            }
+            
+            NSInteger totScore = totalScore;
+            
+            [prefs setInteger:totScore forKey:@"totalScore"];
+            
+            EndRoundVC *roundEnded = [[EndRoundVC alloc] init];
+            [self.view.window setRootViewController:roundEnded];
         }
         else{
             self.currentIndex++;
@@ -203,6 +243,7 @@
 -(void)wrongLetter
 {
     self.isWordSpelled = NO;
+    self.timesWrong++;
     [self resetScreen];
     [self setupLevelWithWord:self.currentWord];
 }
@@ -234,6 +275,7 @@
     MainMenuVC *menuVC = [[MainMenuVC alloc] init];
     [self.view.window setRootViewController:menuVC];
 }
+
 
 
 @end
