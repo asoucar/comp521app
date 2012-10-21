@@ -46,6 +46,7 @@
 		14AF705D16349E0300B0D14C /* EndRoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AF705B16349E0300B0D14C /* EndRoundVC.m */; };
 		14AF705E16349E0300B0D14C /* EndRoundVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14AF705C16349E0300B0D14C /* EndRoundVC.xib */; };
 		14AF70601634AB5F00B0D14C /* cat.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 14AF705F1634AB5F00B0D14C /* cat.PNG */; };
+		14AF70621634BEC100B0D14C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AF70611634BEC100B0D14C /* AVFoundation.framework */; };
 		14C1BD9716160EBB00CCB3AA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */; };
 		14C1BDAD16162DB200CCB3AA /* happycheering.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA516162DB200CCB3AA /* happycheering.aiff */; };
 		14FBF769161368EA0085982F /* GameWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FBF768161368EA0085982F /* GameWord.m */; };
@@ -113,6 +114,7 @@
 		14AF705B16349E0300B0D14C /* EndRoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndRoundVC.m; path = ../EndRoundVC.m; sourceTree = "<group>"; };
 		14AF705C16349E0300B0D14C /* EndRoundVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EndRoundVC.xib; path = ../EndRoundVC.xib; sourceTree = "<group>"; };
 		14AF705F1634AB5F00B0D14C /* cat.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.PNG; sourceTree = "<group>"; };
+		14AF70611634BEC100B0D14C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		14C1BDA516162DB200CCB3AA /* happycheering.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happycheering.aiff; sourceTree = "<group>"; };
 		14FBF767161368EA0085982F /* GameWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameWord.h; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AF70621634BEC100B0D14C /* AVFoundation.framework in Frameworks */,
 				14C1BD9716160EBB00CCB3AA /* AudioToolbox.framework in Frameworks */,
 				14A3BCCA160CD8D400103CF4 /* UIKit.framework in Frameworks */,
 				14A3BCCC160CD8D400103CF4 /* Foundation.framework in Frameworks */,
@@ -159,6 +162,7 @@
 		14A3BCBA160CD8D400103CF4 = {
 			isa = PBXGroup;
 			children = (
+				14AF70611634BEC100B0D14C /* AVFoundation.framework */,
 				14A3BCCF160CD8D400103CF4 /* AudiOWords */,
 				14A3BCED160CD8D400103CF4 /* AudiOWordsTests */,
 				14A3BCC8160CD8D400103CF4 /* Frameworks */,

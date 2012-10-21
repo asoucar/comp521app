@@ -36,19 +36,16 @@
         }
         
         self.wordImage = [UIImage imageNamed: [NSString stringWithFormat:@"%@.PNG", aWord]];
-        //NSString *happysoundPath = [[NSBundle mainBundle] pathForResource: [NSString stringWithFormat:@"%@_happy", aWord] ofType:@"aif"];
-        NSString *happysoundPath = [[NSBundle mainBundle] pathForResource: [NSString stringWithFormat:@"happycheering"] ofType:@"aiff"];
-        NSURL *happysoundURL =[NSURL fileURLWithPath:happysoundPath];
-        SystemSoundID happysoundFileID;
-        AudioServicesCreateSystemSoundID ((__bridge CFURLRef)happysoundURL, &happysoundFileID);
-        [self.sounds setObject:[NSNumber numberWithUnsignedLong:happysoundFileID] forKey:@"happy"];
         
-        //NSString *sadsoundPath = [[NSBundle mainBundle] pathForResource: [NSString stringWithFormat:@"%@_sad", aWord] ofType:@"aif"];
-        NSString *sadsoundPath = [[NSBundle mainBundle] pathForResource: [NSString stringWithFormat:@"sadsound1"] ofType:@"aiff"];
-        NSURL *sadsoundURL =[NSURL fileURLWithPath:sadsoundPath];
-        SystemSoundID sadsoundFileID;
-        AudioServicesCreateSystemSoundID ((__bridge CFURLRef)sadsoundURL, &sadsoundFileID);
-        [self.sounds setObject:[NSNumber numberWithUnsignedLong:sadsoundFileID] forKey:@"sad"];
+        
+        AVAudioPlayer *pp1 = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"happycheering" ofType:@"aiff"]] error:nil];
+        self.happyPlay = pp1;
+        [pp1 prepareToPlay];
+        
+        AVAudioPlayer *pp2 = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"sadsound1" ofType:@"aiff"]] error:nil];
+        self.sadPlay = pp2;
+        [pp2 prepareToPlay];
+        
 
     }
     return self;
@@ -61,12 +58,12 @@
 
 -(void)playHappySound
 {
-    AudioServicesPlaySystemSound ([[self.sounds objectForKey:@"happy"] unsignedLongValue]);
+    [self.happyPlay play];
 }
 
 -(void)playSadSound
 {
-    AudioServicesPlaySystemSound ([[self.sounds objectForKey:@"sad"] unsignedLongValue]);
+    [self.sadPlay play];
 }
 
 @end

@@ -10,6 +10,7 @@
 #import "MainMenuVC.h"
 #import "GameWord.h"
 #import "EndRoundVC.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface MainGameVC ()
 
@@ -26,6 +27,10 @@
 @property (nonatomic) NSNumber *currLevel;
 @property (nonatomic) double score;
 @property (nonatomic) int timesWrong;
+
+@property (nonatomic, retain) AVAudioPlayer *cheerPlay;
+
+
 
 @end
 
@@ -58,7 +63,9 @@
     self.letterButtons = [NSMutableArray array];
     self.thisWordsSpelling = [NSMutableArray array];
     
-
+    AVAudioPlayer *pp1 = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"happycheering" ofType:@"aiff"]] error:nil];
+    self.cheerPlay = pp1;
+    [pp1 prepareToPlay];
     
     
     //eventually to be replaced by call to 'database'
@@ -261,11 +268,12 @@
 
 -(void)playWinSound
 {
-    NSString *happysoundPath = [[NSBundle mainBundle] pathForResource: [NSString stringWithFormat:@"happycheering"] ofType:@"aiff"];
-    NSURL *happysoundURL =[NSURL fileURLWithPath:happysoundPath];
-    SystemSoundID happysoundFileID;
-    AudioServicesCreateSystemSoundID ((__bridge CFURLRef)happysoundURL, &happysoundFileID);
-    AudioServicesPlaySystemSound (happysoundFileID);
+    [self.cheerPlay play];
+//    NSString *happysoundPath = [[NSBundle mainBundle] pathForResource: [NSString stringWithFormat:@"happycheering"] ofType:@"aiff"];
+//    NSURL *happysoundURL =[NSURL fileURLWithPath:happysoundPath];
+//    SystemSoundID happysoundFileID;
+//    AudioServicesCreateSystemSoundID ((__bridge CFURLRef)happysoundURL, &happysoundFileID);
+//    AudioServicesPlaySystemSound (happysoundFileID);
 }
 
 #pragma mark - navigation button(s)
