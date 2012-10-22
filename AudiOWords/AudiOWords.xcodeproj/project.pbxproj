@@ -42,11 +42,11 @@
 		14AF705D16349E0300B0D14C /* EndRoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AF705B16349E0300B0D14C /* EndRoundVC.m */; };
 		14AF705E16349E0300B0D14C /* EndRoundVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14AF705C16349E0300B0D14C /* EndRoundVC.xib */; };
 		14AF70621634BEC100B0D14C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AF70611634BEC100B0D14C /* AVFoundation.framework */; };
-		14AF70691634C78600B0D14C /* cat.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 14AF70641634C78600B0D14C /* cat.PNG */; };
 		14AF706A1634C78600B0D14C /* cow.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 14AF70651634C78600B0D14C /* cow.PNG */; };
 		14AF706B1634C78600B0D14C /* dog.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 14AF70661634C78600B0D14C /* dog.PNG */; };
 		14AF706C1634C78600B0D14C /* pig.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 14AF70671634C78600B0D14C /* pig.PNG */; };
 		14AF706D1634C78600B0D14C /* rat.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 14AF70681634C78600B0D14C /* rat.PNG */; };
+		14AF706E1634C83E00B0D14C /* cat.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 14AF70641634C78600B0D14C /* cat.PNG */; };
 		14C1BD9716160EBB00CCB3AA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */; };
 		14C1BDAD16162DB200CCB3AA /* happycheering.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA516162DB200CCB3AA /* happycheering.aiff */; };
 		14FBF769161368EA0085982F /* GameWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FBF768161368EA0085982F /* GameWord.m */; };
@@ -370,11 +370,11 @@
 				14AF705816349CF400B0D14C /* sadram.aiff in Resources */,
 				14AF705916349CF400B0D14C /* sadsound1.aiff in Resources */,
 				14AF705E16349E0300B0D14C /* EndRoundVC.xib in Resources */,
-				14AF70691634C78600B0D14C /* cat.PNG in Resources */,
 				14AF706A1634C78600B0D14C /* cow.PNG in Resources */,
 				14AF706B1634C78600B0D14C /* dog.PNG in Resources */,
 				14AF706C1634C78600B0D14C /* pig.PNG in Resources */,
 				14AF706D1634C78600B0D14C /* rat.PNG in Resources */,
+				14AF706E1634C83E00B0D14C /* cat.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
