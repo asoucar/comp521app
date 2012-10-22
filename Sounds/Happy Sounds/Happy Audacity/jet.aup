@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="jet_data" version="1.3.0" audacityversion="1.3.13-beta" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="184.5703125000" rate="44100.0">
+	<tags/>
+	<wavetrack name="jet" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" rate="44100" gain="0.316228" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="98921">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000716.au" len="98921" min="-1.025801" max="1.033494" rms="0.443629"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="jet" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" rate="44100" gain="0.316228" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="98921">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000e6a.au" len="98921" min="-1.024312" max="1.029666" rms="0.419704"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

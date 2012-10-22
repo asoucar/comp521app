@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="happybee_data" version="1.3.0" audacityversion="1.3.13-beta" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="106.1773768453" rate="96000.0">
+	<tags/>
+	<wavetrack name="happybee" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" rate="96000" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="343576">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000994.au" len="197015" min="-0.123657" max="0.058014" rms="0.009907"/>
+				</waveblock>
+				<waveblock start="197015">
+					<simpleblockfile filename="e0000b13.au" len="146561" min="-0.030975" max="0.023743" rms="0.00488"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="happybee" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" rate="96000" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="343576">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000e95.au" len="197015" min="-0.142303" max="0.075745" rms="0.011691"/>
+				</waveblock>
+				<waveblock start="197015">
+					<simpleblockfile filename="e00005e1.au" len="146561" min="-0.044495" max="0.066223" rms="0.00679"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="happyrat_data" version="1.3.0" audacityversion="1.3.13-beta" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="127.8409090909" rate="96000.0">
+	<tags>
+		<tag name="Software" value="Sound Forge Pro 10.0"/>
+		<tag name="YEAR" value="2012-01-21"/>
+	</tags>
+	<wavetrack name="happyrat" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" rate="96000" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="202752">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b88.au" len="202752" min="-0.051644" max="0.058767" rms="0.008144"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
