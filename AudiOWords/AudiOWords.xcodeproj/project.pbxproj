@@ -48,7 +48,7 @@
 		14AF706D1634C78600B0D14C /* rat.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 14AF70681634C78600B0D14C /* rat.PNG */; };
 		14AF706E1634C83E00B0D14C /* cat.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 14AF70641634C78600B0D14C /* cat.PNG */; };
 		14C1BD9716160EBB00CCB3AA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */; };
-		14C1BDAD16162DB200CCB3AA /* happycheering.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14C1BDA516162DB200CCB3AA /* happycheering.aiff */; };
+		14E947DB16358F2E00109204 /* happycheering.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 14E947D416358F2E00109204 /* happycheering.aiff */; };
 		14FBF769161368EA0085982F /* GameWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FBF768161368EA0085982F /* GameWord.m */; };
 /* End PBXBuildFile section */
 
@@ -116,7 +116,7 @@
 		14AF70671634C78600B0D14C /* pig.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig.PNG; sourceTree = "<group>"; };
 		14AF70681634C78600B0D14C /* rat.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rat.PNG; sourceTree = "<group>"; };
 		14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		14C1BDA516162DB200CCB3AA /* happycheering.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happycheering.aiff; sourceTree = "<group>"; };
+		14E947D416358F2E00109204 /* happycheering.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = happycheering.aiff; sourceTree = "<group>"; };
 		14FBF767161368EA0085982F /* GameWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameWord.h; sourceTree = "<group>"; };
 		14FBF768161368EA0085982F /* GameWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameWord.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,9 +181,9 @@
 		14A3BCCF160CD8D400103CF4 /* AudiOWords */ = {
 			isa = PBXGroup;
 			children = (
+				14E947D216358F2E00109204 /* Happy Sounds */,
 				14AF70631634C78600B0D14C /* images */,
 				14AF704916349CF400B0D14C /* Sad Sounds */,
-				14C1BDA316162DB200CCB3AA /* Happy Sounds */,
 				14C1BD9616160EBB00CCB3AA /* AudioToolbox.framework */,
 				14A3BD32160E54ED00103CF4 /* box_blue.png */,
 				14A3BCD8160CD8D400103CF4 /* AppDelegate.h */,
@@ -273,10 +273,10 @@
 			path = images;
 			sourceTree = "<group>";
 		};
-		14C1BDA316162DB200CCB3AA /* Happy Sounds */ = {
+		14E947D216358F2E00109204 /* Happy Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				14C1BDA516162DB200CCB3AA /* happycheering.aiff */,
+				14E947D416358F2E00109204 /* happycheering.aiff */,
 			);
 			path = "Happy Sounds";
 			sourceTree = "<group>";
@@ -360,7 +360,6 @@
 				14A3BD1D160CDCDB00103CF4 /* AboutVC.xib in Resources */,
 				14A3BD33160E54ED00103CF4 /* box_blue.png in Resources */,
 				14A3BD38160E576500103CF4 /* TutorialVC.xib in Resources */,
-				14C1BDAD16162DB200CCB3AA /* happycheering.aiff in Resources */,
 				14AF705216349CF400B0D14C /* sadbee.aiff in Resources */,
 				14AF705316349CF400B0D14C /* sadcat.aiff in Resources */,
 				14AF705416349CF400B0D14C /* sadcow.aiff in Resources */,
@@ -375,6 +374,7 @@
 				14AF706C1634C78600B0D14C /* pig.PNG in Resources */,
 				14AF706D1634C78600B0D14C /* rat.PNG in Resources */,
 				14AF706E1634C83E00B0D14C /* cat.PNG in Resources */,
+				14E947DB16358F2E00109204 /* happycheering.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
