@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
+#import <Slt/Slt.h>
+#import <OpenEars/FliteController.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    FliteController *fliteController;
+    Slt *slt;
+}
+@property (strong, nonatomic) FliteController *fliteController;
+@property (strong, nonatomic) Slt *slt;
 
 @end
