@@ -96,7 +96,10 @@
         NSLog(@"%@",[rounds_words objectAtIndex:(i)]);
     }
     //test voice
-    [self.fliteController say:[rounds_words objectAtIndex:(1)] withVoice:self.slt];
+    for (int i =0; i< ([rounds_words count]-1); i++){
+    [self.fliteController say:[rounds_words objectAtIndex:(i)] withVoice:self.slt];
+        
+    }
 
     //modifies the words based on round
         if(level >= 7 && level <= 9){
